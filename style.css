@@ -1,0 +1,31 @@
+.cirbtn{
+  color:white;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #268825;
+  border-radius: 60px;
+  background-color: #268825;
+}
+body{
+  color:white;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #315d4e;
+}
+#message {
+  visibility: hidden;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: slidein;
+}
+@-webkit-keyframes slidein {
+  0% {
+    visibility: hidden;
+    font-size: 29px;
+  }
+  100% {
+    visibility: visible;
+    font-size: 13px;
+  }
+}
